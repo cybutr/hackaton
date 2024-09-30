@@ -1,5 +1,4 @@
 .body{
-    background-color: rainbow-gay-lesbian-trans-rainbow-for-ssps-kb;
     font-family: "HelveticaNeue";
 }
 .text-archa{
@@ -42,23 +41,24 @@
 a:link{
     text-decoration: none;
 }
-.menuBase{
-    border-radius: 50%;
-}
 .menuButton {
     position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 40px;
-    height: 40px;
+    bottom: 10px; /* Původní pozice tlačítka (pravý dolní roh) */
+    right: 10px;
+    width: 45px;
+    height: 45px;
     background-color: #4bc475;
+    border: none;
     border-radius: 50%;
-    padding: 10px;
-    transition: 0.5s;
     cursor: pointer;
+    transition: 500ms ease-in-out; /* Přechod pro pozice a změny */
 }
-.menuButton:active {
-    transform: translate(50%, 50%);
-    bottom: 50%;
-    right: 50%;
+
+.menuButton.centered {
+    /* Při přidání třídy 'centered' bude tlačítko ve středu */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Posunutí o polovinu velikosti tlačítka */
+    bottom: auto;
+    right: auto;
 }

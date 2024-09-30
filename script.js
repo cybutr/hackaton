@@ -1,9 +1,6 @@
-const menuButton = document.getElementById('menuButton');
+const button = document.getElementById('myButton');
 
-function toggleMenu()
-{
-    isMenuButtonActive = !isMenuButtonActive;
-    alert(isMenuButtonActive);
-
-}
-toggleMenu();
+button.addEventListener('click', () => {
+  // Přepínání třídy 'centered' pro změnu pozice tlačítka
+  button.classList.toggle('centered');
+});
