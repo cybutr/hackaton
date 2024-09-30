@@ -13,15 +13,15 @@ run = True
 while run:
     screen.fill((0, 0, 0))
 
-    
+
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
     
     keys = pygame.key.get_pressed()
-    if keys[pygame.K_RIGHT]:
-        player.x -= 1
     if keys[pygame.K_LEFT]:
+        player.x -= 1
+    if keys[pygame.K_RIGHT]:
         player.x += 1
     if keys[pygame.K_UP]:
         player.y -= 1
