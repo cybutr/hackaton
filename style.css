@@ -9,6 +9,11 @@
     padding-left: 10%;
     scale: 120%;
     font-weight: 900;
+    transition: 500ms ease-in-out;
+}
+.text-archa:hover{
+    color: #543629;
+    transition: 500ms ease-in-out;
 }
 .tab{
     background-color: #ff4c00;
@@ -28,6 +33,11 @@
     transform: scale(1, 1.3);
     font-weight: 900;
     scale: 120%;
+    transition: 500ms ease-in-out;
+}
+.menu:hover{
+    color: #543629;
+    transition: 500ms ease-in-out;
 }
 a:link{
     text-decoration: none;
