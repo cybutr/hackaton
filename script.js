@@ -6,4 +6,3 @@ function toggleMenu()
     alert(isMenuButtonActive);
 
 }
-toggleMenu();
