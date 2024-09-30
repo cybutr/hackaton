@@ -16,7 +16,8 @@ else:
 
 
 # Initialise game window
-pygame.display.set_caption('Snake Eater')
+pgame.
+pygame.display.set_caption("HRA")
 game_window = pygame.display.set_mode((frame_size_x, frame_size_y))
 
 
@@ -26,6 +27,7 @@ white = pygame.Color(255, 255, 255)
 red = pygame.Color(255, 0, 0)
 green = pygame.Color(0, 255, 0)
 blue = pygame.Color(0, 0, 255)
+orange = pygame.Color(255, 128, 0)
 
 
 # FPS (frames per second) controller
@@ -136,7 +138,7 @@ while True:
         pygame.draw.rect(game_window, green, pygame.Rect(pos[0], pos[1], 10, 10))
 
     # Snake food
-    pygame.draw.rect(game_window, white, pygame.Rect(food_pos[0], food_pos[1], 10, 10))
+    pygame.draw.rect(game_window, red, pygame.Rect(food_pos[0], food_pos[1], 10, 10))
 
     # Game Over conditions
     # Getting out of bounds
