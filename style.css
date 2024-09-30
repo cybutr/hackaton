@@ -1,3 +1,34 @@
 .body{
     background-color: rainbow-gay-lesbian-trans-rainbow-for-ssps-kb;
+    font-family: "HelveticaNeue";
+}
+.text-archa{
+    text-align: left; 
+    color: black; 
+    transform: scale(1, 1.3);
+    padding-left: 10%;
+    scale: 120%;
+    font-weight: 900;
+}
+.tab{
+    background-color: #ff4c00;
+    padding: 0;
+    top: 0;
+    margin: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+.menu{
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 3%;
+    transform: scale(1, 1.3);
+    font-weight: 900;
+    scale: 120%;
+}
+a:link{
+    text-decoration: none;
 }
