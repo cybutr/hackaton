@@ -193,6 +193,11 @@ a:link{
     left: 0;
     width: 13vh;
     padding: 1%;
+    transition: 200ms ease;
+}
+.logo:hover {
+    transform: scale(0.9);
+    transition: 200ms ease;
 }
 .menu-item,
 .menu-open-button {
