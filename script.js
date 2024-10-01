@@ -1,15 +1,6 @@
-const button = document.getElementById('myButton');
+const container = document.querySelector("#container"),  
+    tile = document.querySelector(".tile");
 
-<<<<<<< HEAD
-button.addEventListener('click', () => {
-  // Přepínání třídy 'centered' pro změnu pozice tlačítka
-  button.classList.toggle('centered');
-});
-=======
-function toggleMenu()
-{
-    isMenuButtonActive = !isMenuButtonActive;
-    alert(isMenuButtonActive);
-
+for(let i = 0; i < 1599; i++) {
+container.appendChild(tile.cloneNode());
 }
->>>>>>> b90fa844e84823c21d25af71416c1811f4e086fb
