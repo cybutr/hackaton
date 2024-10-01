@@ -41,29 +41,6 @@
 a:link{
     text-decoration: none;
 }
-<<<<<<< HEAD
-.menuButton {
-    position: absolute;
-    bottom: 10px; /* Původní pozice tlačítka (pravý dolní roh) */
-    right: 10px;
-    width: 45px;
-    height: 45px;
-    background-color: #4bc475;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 500ms ease-in-out; /* Přechod pro pozice a změny */
-}
-
-.menuButton.centered {
-    /* Při přidání třídy 'centered' bude tlačítko ve středu */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Posunutí o polovinu velikosti tlačítka */
-    bottom: auto;
-    right: auto;
-}
-=======
 .main{
     top: 10%;
     position: absolute;
@@ -369,4 +346,3 @@ transition: all 0.3s ease 0s;
 .credit a:hover {
 text-decoration: underline;
 }
->>>>>>> b90fa844e84823c21d25af71416c1811f4e086fb
