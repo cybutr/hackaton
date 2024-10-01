@@ -193,11 +193,17 @@ a:link{
     left: 0;
     width: 13vh;
     padding: 1%;
-    transition: 200ms ease;
+    transition: 800ms ease;
 }
-.logo:hover {
-    transform: scale(0.9);
-    transition: 200ms ease;
+.logo:hover {  
+    position: fixed !important;
+    z-index: 1;
+    top: 2%;
+    left: 2%;
+    width: 18vh;
+    padding: 1%;
+    rotate: 45deg;
+    transition: 800ms ease;
 }
 .menu-item,
 .menu-open-button {
