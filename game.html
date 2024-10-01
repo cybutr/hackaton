@@ -156,7 +156,7 @@
         -webkit-transition-duration: 200ms;
         transition-duration: 200ms;
         -webkit-transform: scale(0.8, 0.8) translate3d(0, 0, 0);
-        transform: scale(0.8, 0.8) translate3d(0, -400px, 0);
+        transform: scale(0.8, 0.8) translate3d(0, -500px, 0);
         }
 
         .menu-open:checked ~ .menu-item {
@@ -168,14 +168,14 @@
         transition-duration: 180ms;
         -webkit-transition-duration: 180ms;
         -webkit-transform: translate3d(0.08361px, -104.99997px, 0);
-        transform: translate3d(0.08361px, -424.99997px, 0);
+        transform: translate3d(0.08361px, -524.99997px, 0);
         }
 
         .menu-open:checked ~ .menu-item:nth-child(4) {
         transition-duration: 280ms;
         -webkit-transition-duration: 280ms;
         -webkit-transform: translate3d(90.9466px, -52.47586px, 0);
-        transform: translate3d(0.08361px, -214.99997px, 0);
+        transform: translate3d(0.08361px, -264.99997px, 0);
         }
 
         .blue {
@@ -217,16 +217,40 @@
         text-decoration: underline;
         }
         .box{
-            width: 43%;
-            height: 60%;
+            width: 43vw;
+            height: 60vh;
             position: fixed;
             border-radius: 10%;
             background: black;
             z-index: -1;
         }
+        .logo{
+            position: fixed !important;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            width: 13vh;
+            padding: 1%;
+            transition: 800ms ease;
+        }
+        .logo:hover {  
+            position: fixed !important;
+            z-index: 1;
+            top: 2%;
+            left: 2%;
+            width: 18vh;
+            padding: 1%;
+            rotate: 45deg;
+            transition: 800ms ease;
+        }
     </style>
 </head>
 <body>
+    <nav class="tab">
+        <a href="index.html">
+            <img class="logo" src="ARCHA+logo.png">
+        </a>
+    </nav>
     <div class="box"></div>
     <nav class="menu">
         <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
