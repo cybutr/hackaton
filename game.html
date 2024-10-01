@@ -12,7 +12,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #222;
+            background-color: #ffffff;
         }
         canvas {
             display: block;
@@ -216,9 +216,18 @@
         .credit a:hover {
         text-decoration: underline;
         }
+        .box{
+            width: 43%;
+            height: 60%;
+            position: fixed;
+            border-radius: 10%;
+            background: black;
+            z-index: -1;
+        }
     </style>
 </head>
 <body>
+    <div class="box"></div>
     <nav class="menu">
         <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
         <label class="menu-open-button" for="menu-open">
@@ -282,13 +291,13 @@
             let pre_direction = direction;
 
             // Control handling
-            if (keyIsDown(LEFT_ARROW) && direction !== RIGHT) {
+            if (keyIsDown(65) && direction !== RIGHT) {
                 direction = LEFT;
-            } else if (keyIsDown(RIGHT_ARROW) && direction !== LEFT) {
+            } else if (keyIsDown(68) && direction !== LEFT) {
                 direction = RIGHT;
-            } else if (keyIsDown(UP_ARROW) && direction !== DOWN) {
+            } else if (keyIsDown(87) && direction !== DOWN) {
                 direction = UP;
-            } else if (keyIsDown(DOWN_ARROW) && direction !== UP) {
+            } else if (keyIsDown(83) && direction !== UP) {
                 direction = DOWN;
             }
 
